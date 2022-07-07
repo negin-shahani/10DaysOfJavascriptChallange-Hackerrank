@@ -25,17 +25,19 @@ function readLine() {
 function getLetter(s) {
     let letter;
     switch(s.charAt(0)){
-        case "a"||"e"||"i"||"o"||"u": 
+        case ('a'||'e'||'i'||'o'||'u'): 
             letter = "A"
             break;
-        case "b"||"c"||"d"||"f"||"g": 
+        case ('b'||'c'||'d'||'f'||'g'): 
             letter = "B"
             break;
-        case "h"||"j"||"k"||"l"||"m": 
+        case ('h'||'j'||'k'||'l'||'m'): 
             letter = "C"
             break;
-        case "n"||"p"||"q"||"r"||"s"||"t"||"v"||"w"||"x"||"y"||"z": 
+        case ('z'||'n'||'p'||'q'||'r'||'s'||'t'||'v'||'w'||'x'||'y'): 
             letter = "D"
+            break;
+        default:
             break;
     }
     return letter;
