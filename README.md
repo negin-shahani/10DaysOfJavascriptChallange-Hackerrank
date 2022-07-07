@@ -95,3 +95,21 @@
   13.5
   15
 ```  
+## Day 1: Functions
+**Task:** _Implement a function named `factorial()` that has one parameter: an integer, n. It must return the value of  n!(i.e., n factorial)._
+
+**Input Format:** _Locked stub code in the editor reads a single integer, `n`, from stdin and passes it to a function named factorial._
+
+**Output Format:** _The function must return the value of `n!`._
+
+
+**Sample Input**
+```
+  4
+```
+
+**Sample Output**
+```
+  24
+  
+``` 
