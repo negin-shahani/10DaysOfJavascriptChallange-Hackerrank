@@ -58,3 +58,40 @@
   HackerRank is the best place to learn and practice coding!
   
 ```  
+## Day 1: Arithmetic Operators
+**Task:** _Complete the following functions:_
+
+1. `getArea(length, width)`: Calculate and return the area of a rectangle having sides length and width.
+2. `getPerimeter(length, width)`: Calculate and return the perimeter of a rectangle having sides length and width .
+
+**Input Format:**  `getArea`:
+| Data Type  | Parameter | Description |
+| ------------- | ------------- | ------------- |
+| Number  | length  | A number denoting the lenght of a rectangle.|
+| Number  | height  | A number denoting the height of a rectangle.|
+
+`getPerimeter(length, height)`:
+
+| Data Type  | Parameter | Description |
+| ------------- | ------------- | ------------- |
+| Number  | length  | A number denoting the lenght of a rectangle.|
+| Number  | height  | A number denoting the height of a rectangle.|
+
+**Output Format:**
+
+| Function  | Return Type | Description |
+| ------------- | ------------- | ------------- |
+| getArea  | Number  | The area of a rectangle having sides _length_ and _width_.|
+| getPerimeter  | Number  | The perimeter of a rectangle having sides _length_ and _width_.|
+
+**Sample Input**
+```
+  3
+  4.5
+```
+
+**Sample Output**
+```
+  13.5
+  15
+```  
