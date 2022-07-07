@@ -137,3 +137,27 @@
   16.336281798666924
   
 ```
+## Day 2: Conditional Statements: If-Else
+**Task:** _Complete the getGrade(score) function. It has one parameter: an integer, *score*, denoting the number of points Julia earned on an exam. It must return the letter corresponding to her *grade* according to the following rules:_
+- `if 25 < score <= 30, then grade = A`
+- `if 20 < score <= 25, then grade = B`
+- `if 15 < score <= 20, then grade = C`
+- `if 10 < score <= 15, then grade = D`
+- `if 5 < score <= 10, then grade = E`
+- `if 0 < score <= 5, then grade = F`
+
+**Input Format:** _Stub code in the editor reads a single integer denoting score from stdin and passes it to the function._
+
+**Output Format:** _The function must return the value of grade (i.e., the letter grade) that Julia earned on the exam._
+
+
+**Sample Input**
+```
+  11
+```
+
+**Sample Output**
+```
+  D
+  
+``` 
