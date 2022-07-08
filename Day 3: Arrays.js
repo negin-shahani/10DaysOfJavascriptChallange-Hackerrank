@@ -28,9 +28,9 @@ function readLine() {
 *   @return {Number} The second largest number in the array.
 **/
 function getSecondLargest(nums) {
-    let newnNums = [...new Set(nums)];
-    newnNums = newnNums.sort((a,b) => a-b);
-    if(newnNums.length == 1){
+    let newnNums = [...new Set(nums)]; //with this method I can delete the duplicates
+    newnNums = newnNums.sort((a,b) => a-b); //sort method for numbers
+    if(newnNums.length == 1){ //if we dont have atleast two numbers
         return newnNums[0];
     }
     return newnNums[newnNums.length-2];
