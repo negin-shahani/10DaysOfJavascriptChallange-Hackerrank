@@ -270,3 +270,47 @@
 ``` 
 Explanation:
 _`s =Number(1234)` is not a string type, so it can't be reversed using string functions. When we try to reverse it anyway, it throws an exception. We then catch the exception and print its message, which is `s.split` is not a function. Next, we finally print s which, because it wasn't able to be reversed, is Number(1234)._
+
+```  
+## Day 3: Throw
+**Task:** _Complete the `isPositive()` function below. It has one integer parameter, a. If the value of a is positive, it must return the string `YES`. Otherwise, it must throw an Error according to the following rules:_
+- If a is 0, throw an Error with `message = Zero Error`.
+- If a is negative, throw an Error with `message = Negative Error`.
+
+**Input Format:** _Locked stub code in the editor reads the following input from stdin and passes each value of a to the function as an argument:_
+_The first line is an integer, n, denoting the number of times the function will be called with some a._
+_Each line i of the n subsequent lines contains an integer denoting some a._
+
+**Output Format:** _If the value of a is positive, the function must return the string YES. Otherwise, it must throw an Error._
+
+
+**Sample Input 0**
+```
+  3
+  1
+  2
+  3
+```
+
+**Sample Output 0**
+```
+  YES
+  YES
+  YES 
+  
+``` 
+**Sample Input 1**
+```
+  3
+  2
+  0
+  6
+```
+
+**Sample Output 1**
+```
+  YES
+  Zero Error
+  YES 
+  
+``` 
