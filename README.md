@@ -235,3 +235,23 @@
   5
   
 ```  
+## Day 3: Try, Catch, and Finally
+**Task:** _Complete the `getSecondLargest()` function._
+
+**Input Format:** 
+1. The first line contains an integer, n, the size of the nums array.
+2. The second line contains n space-separated numbers that describe the elements in nums.
+
+**Output Format:** _Return the **second largest number** in nums_
+
+**Sample Input**
+```
+  5
+  2 3 6 6 5
+```
+
+**Sample Output**
+```
+  5
+  
+``` 
