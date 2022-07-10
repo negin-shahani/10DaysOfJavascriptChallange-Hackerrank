@@ -338,3 +338,38 @@ _The second line contains an integer denoting b._
   20
   
 ```
+## Day 4: Count Objects
+**Task:** _Complete the function in the editor. It has one parameter: an array, a, of objects. Each object in the array has two integer properties denoted by `x` and `y`. The function must return a count of all such objects  in array  that satisfy `o.x == o.y`._
+
+
+**Input Format:** _The first line contains an integer denoting n._
+_Each of the n subsequent lines contains two space-separated integers describing the values of x and y._
+
+**Output Format:** _Return a count of the total number of objects `O` such that `o.x == o.y`. Locked stub code in the editor prints the returned value to STDOUT._
+
+
+**Sample Input**
+```
+  5
+  1 1
+  2 3
+  3 3
+  3 4
+  4 5
+```
+
+**Sample Output**
+```
+  2
+  
+```
+**Explanation:** 
+
+_There are `n = 5` objects in the **Objects** array:_
+- objects<sub>0</sub> = {x:1 , y:1}
+- objects<sub>1</sub> = {x:2 , y:3}
+- objects<sub>2</sub> = {x:3 , y:3}
+- objects<sub>3</sub> = {x:3 , y:4}
+- objects<sub>4</sub> = {x:4 , y:5}
+
+_Because we have two objects O that satisfy  `o.x == o.y`(i.e., objects<sub>0</sub> and objects<sub>2</sub>), we return **2** as our answer._
