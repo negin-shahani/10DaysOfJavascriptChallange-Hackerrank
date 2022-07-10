@@ -311,3 +311,30 @@ _Each line i of the n subsequent lines contains an integer denoting some a._
   Zero Error
   YES   
 ``` 
+## Day 4: Create a Rectangle Object
+**Task:** _Complete the function in the editor. It has two parameters: `a` and `b`. It must return an object modeling a rectangle that has the following properties:_
+- `length`: This value is equal to a.
+- `width`: This value is equal to b.
+- `perimeter`: This value is equal to `2 * (a + b)`.
+- `area`: This value is equal to `a * b`.
+
+**Input Format:** _The first line contains an integer denoting a._
+_The second line contains an integer denoting b._
+
+**Output Format:** _Return a object that has the properties specified above. Locked code in the editor prints the returned object's `length`, `width`, `perimeter`, and  `area` to STDOUT._
+
+
+**Sample Input**
+```
+  4
+  5
+```
+
+**Sample Output**
+```
+  4
+  5
+  18
+  20
+  
+```
