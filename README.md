@@ -271,7 +271,6 @@
 Explanation:
 _`s =Number(1234)` is not a string type, so it can't be reversed using string functions. When we try to reverse it anyway, it throws an exception. We then catch the exception and print its message, which is `s.split` is not a function. Next, we finally print s which, because it wasn't able to be reversed, is Number(1234)._
 
-```  
 ## Day 3: Throw
 **Task:** _Complete the `isPositive()` function below. It has one integer parameter, a. If the value of a is positive, it must return the string `YES`. Otherwise, it must throw an Error according to the following rules:_
 - If a is 0, throw an Error with `message = Zero Error`.
