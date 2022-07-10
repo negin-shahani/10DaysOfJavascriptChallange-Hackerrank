@@ -373,3 +373,27 @@ _There are `n = 5` objects in the **Objects** array:_
 - objects<sub>4</sub> = {x:4 , y:5}
 
 _Because we have two objects O that satisfy  `o.x == o.y`(i.e., objects<sub>0</sub> and objects<sub>2</sub>), we return **2** as our answer._
+
+## Day 4: Classes
+
+**Task:** _Create a **Polygon class** that has the following properties:_
+- A `constructor` that takes an array of integer values describing the lengths of the polygon's sides.
+- A `perimeter()` method that returns the polygon's perimeter.
+
+
+**Input Format:** _There is no input for this challenge._
+
+**Output Format:** _The perimeter method must return the **polygon's perimeter** using the side length array passed to the constructor._
+
+**Explanation:** 
+
+_Consider the following code:_
+```
+// Create a polygon with side lengths 3, 4, and 5
+let triangle = new Polygon([3, 4, 5]);
+
+// Print the perimeter
+console.log(triangle.perimeter());
+
+```
+_When executed with a properly implemented Polygon class, this code should print the result of `3 + 4 + 5 = 12`._
