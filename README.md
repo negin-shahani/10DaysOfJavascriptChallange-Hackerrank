@@ -236,22 +236,35 @@
   
 ```  
 ## Day 3: Try, Catch, and Finally
-**Task:** _Complete the `getSecondLargest()` function._
+**Task:** _Complete the `reverseString()` function; it has one parameter, s. You must perform the following actions:_
+1. Try to reverse string s using the `split`, `reverse`, and `join` methods.
+2. If an exception is thrown, catch it and print the contents of the exception's message on a new line.
+3. Print s on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
 
-**Input Format:** 
-1. The first line contains an integer, n, the size of the nums array.
-2. The second line contains n space-separated numbers that describe the elements in nums.
+**Input Format:** _reads variable s from stdin and passes it to the function._
 
-**Output Format:** _Return the **second largest number** in nums_
+**Output Format:** _You must write two print statements using `console.log()`:_
+1. Print the contents of a caught exception's message on a new line. If no exception was thrown, this line should not be printed.
+2. Print s on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
 
-**Sample Input**
+**Sample Input 0**
 ```
-  5
-  2 3 6 6 5
+  "1234"
 ```
 
-**Sample Output**
+**Sample Output 0**
 ```
-  5
+  4321
+  
+``` 
+**Sample Input 1**
+```
+  Number(1234)
+```
+
+**Sample Output 1**
+```
+  s.split is not a function
+  1234
   
 ``` 
