@@ -306,11 +306,9 @@ _Each line i of the n subsequent lines contains an integer denoting some a._
   0
   6
 ```
-
 **Sample Output 1**
 ```
   YES
   Zero Error
-  YES 
-  
+  YES   
 ``` 
