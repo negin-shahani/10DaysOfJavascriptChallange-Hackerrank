@@ -397,3 +397,13 @@ console.log(triangle.perimeter());
 
 ```
 _When executed with a properly implemented Polygon class, this code should print the result of `3 + 4 + 5 = 12`._
+
+## Day 5: Inheritance
+
+**Task:** _We provide the implementation for a `Rectangle` class in the editor. Perform the following tasks:_
+
+1. Add an `area()` method to Rectangle's prototype.
+2. Create a `Square` class that satisfies the following:
+    - It is a subclass of Rectangle.
+    - It contains a `constructor` and no other methods.
+    - It can use the Rectangle class' area method to print the area of a Square object._
