@@ -407,3 +407,39 @@ _When executed with a properly implemented Polygon class, this code should print
     - It is a subclass of Rectangle.
     - It contains a `constructor` and no other methods.
     - It can use the Rectangle class' area method to print the area of a Square object._
+
+## Day 5: Template Literals
+
+**Task:** _It has a tagged template literal that passes the `area` and `perimeter` of a rectangle to a tag function named sides. Recall that the first argument of a tag function is an array of string literals from the template, and the subsequent values are the template's respective expression values._
+_Complete the function in the editor so that it does the following:_
+  1. Finds the initial values of `s1` and `s2` by plugging the area and perimeter values into the formula: (`a` is area and `p` is perimeter)
+      - `s1 = (p + Math.sqrt((p*p)- (16*a)))/4`
+      - `s2 = (p - Math.sqrt((p*p)- (16*a)))/4`
+  2. Creates an array consisting of `s1` and `s2` and sorts it in ascending order.
+  3. Returns the sorted array.
+
+
+**Input Format:** _The first line contains an integer denoting `s1`._
+_The second line contains an integer denoting `s2`._
+
+**Output Format:** _Return an array consisting of `s1` and `s2`, sorted in **ascending** order._
+
+**Sample Input**
+```
+  10
+  14
+```
+
+**Sample Output**
+```
+  10
+  14
+  
+```
+
+**Explanation:** 
+
+_The locked code in the editor passes the following arrays to the tag function:_
+_The value of literals is `[ 'The area is: ', '.\nThe perimeter is: ', '.' ]`._
+_The value of expressions is [ 140, 48 ], where the first value denotes the rectangle's area, A, and the second value denotes its perimeter, P._
+_We then store these values in an array, [14, 10], sort the array, and return the sorted array, [10, 14], as our answer._
