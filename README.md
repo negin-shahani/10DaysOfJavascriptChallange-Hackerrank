@@ -443,3 +443,26 @@ _The locked code in the editor passes the following arrays to the tag function:_
 _The value of literals is `[ 'The area is: ', '.\nThe perimeter is: ', '.' ]`._
 _The value of expressions is [ 140, 48 ], where the first value denotes the rectangle's area, A, and the second value denotes its perimeter, P._
 _We then store these values in an array, [14, 10], sort the array, and return the sorted array, [10, 14], as our answer._
+
+## Day 5: Arrow Functions
+
+**Task:** _It has one parameter: an array, `nums`. It must iterate through the array performing one of the following actions on each element:_
+    - If the `element is even`, multiply the element by `2`.
+    - If the `element is odd`, multiply the element by `3`.
+
+**Input Format:** 
+_The first line contains an integer, `n`, denoting the size of `nums`._
+_The second line contains n space-separated integers describing the respective elements of `nums`._
+
+**Output Format:** _Return the modified array where every even element is doubled and every odd element is tripled._
+
+**Sample Input**
+```
+  5
+  1 2 3 4 5
+```
+
+**Sample Output**
+```
+  3 4 9 8 15 
+```
