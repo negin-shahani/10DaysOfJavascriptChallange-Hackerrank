@@ -466,3 +466,26 @@ _The second line contains n space-separated integers describing the respective e
 ```
   3 4 9 8 15 
 ```
+## Day 6: Bitwise Operators
+
+**Task:** _We define `S` to be a sequence of distinct sequential integers from 1 to n; in other words, `S={1,2,3,...,n}`. We want to know the maximum bitwise AND value of any two integers, `a` and `b` (where `a < b`), in sequence `S` that is also less than a given integer, `k`._
+
+**Input Format:** _The first line contains an integer, `q`, denoting the number of function calls._
+_Each of the `q` subsequent lines defines a dataset for a function call in the form of two space-separated integers describing the respective values of `n` and `k`._
+
+**Output Format:** _Return the maximum possible value of `a & b < k` for any `a < b` in sequence S._
+
+**Sample Input**
+```
+  3
+  5 2
+  8 5
+  2 2
+```
+
+**Sample Output**
+```
+  1
+  4
+  0
+```
