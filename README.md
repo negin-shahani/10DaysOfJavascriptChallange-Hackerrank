@@ -489,3 +489,24 @@ _Each of the `q` subsequent lines defines a dataset for a function call in the f
   4
   0
 ```
+## Day 6: JavaScript Dates
+
+**Task:** _Given a `date string`, , in the format **MM/DD/YYYY**, find and return the day name for that date. Each day name must be one of the following strings: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday. For example, the day name for the date 12/07/2016 is Wednesday._
+
+**Input Format:** _The first line contains an integer, `d`, denoting the number of dates to check._
+_Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format; each date denotes some `date string` that is passed to the function._
+
+**Output Format:** _The function must return a string denoting the day of the week corresponding to the date denoted by `date string`._
+
+**Sample Input**
+```
+  2
+  10/11/2009
+  11/10/2010
+```
+
+**Sample Output**
+```
+  Sunday
+  Wednesday
+```
