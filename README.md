@@ -589,3 +589,40 @@ _Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format;
 ```
   false
 ```
+
+## Day 7: Regular Expressions II
+
+**Task:** _Complete the function in the editor below by returning a `RegExp object`, `re`, that matches every integer in some string `s`._
+
+**Input Format:** 
+- The length of string `s` is  >=3.
+- It's guaranteed that string `s` contains at least one integer.
+
+**Output Format:** _The function must return a R`egExp object` that matches every integer in some string s._
+
+**Sample Input 0**
+```
+  102, 1948948 and 1.3 and 4.5
+```
+
+**Sample Output 0**
+```
+  102
+  1948948
+  1
+  3
+  4
+  5
+```
+
+**Sample Input 1**
+```
+  1 2 3
+```
+
+**Sample Output 1**
+```
+  1
+  2
+  3
+```
