@@ -522,7 +522,7 @@ _Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format;
 
 **Sample Input 0**
 ```
- bcd
+  bcd
 ```
 
 **Sample Output 0**
@@ -532,7 +532,7 @@ _Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format;
 
 **Sample Input 1**
 ```
- abcda
+  abcda
 ```
 
 **Sample Output 1**
@@ -541,7 +541,48 @@ _Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format;
 ```
 **Sample Input 2**
 ```
- abcdo
+  abcdo
+```
+
+**Sample Output 2**
+```
+  false
+```
+
+## Day 7: Regular Expressions II
+
+**Task:** _Complete the function in the editor below by returning a RegExp object, `re`, that matches any string `s` satisfying both of the following conditions:_
+
+- String `s` starts with the prefix Mr., Mrs., Ms., Dr., or Er.
+- The remainder of string `s` (i.e., the rest of the string after the prefix) consists of one or more upper and/or lowercase English alphabetic letters (i.e., [a-z] and [A-Z]).
+
+**Input Format:** 
+- The length of string `s` is  >=3.
+
+**Output Format:** _The function must return a `RegExp object` that matches any string s satisfying both of the given conditions._
+
+**Sample Input 0**
+```
+  Mr.X
+```
+
+**Sample Output 0**
+```
+  false
+```
+
+**Sample Input 1**
+```
+  Dr#Joseph
+```
+
+**Sample Output 1**
+```
+  false
+```
+**Sample Input 2**
+```
+ Er .Abc
 ```
 
 **Sample Output 2**
