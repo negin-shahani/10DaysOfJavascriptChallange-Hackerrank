@@ -510,3 +510,41 @@ _Each line `i` of the `d` subsequent lines contains a date in MM/DD/YYYY format;
   Sunday
   Wednesday
 ```
+## Day 7: Regular Expressions I
+
+**Task:** _Complete the function in the editor below by returning a RegExp object, `re`, that matches any string `s` that begins and ends with the same vowel. Recall that the English vowels are a, e, i, o, and u._
+
+**Input Format:** 
+- The length of string `s` is  >=3.
+- String `s` consists of lowercase letters only (i.e., [a-z]).
+
+**Output Format:** _The function must return a `RegExp object` that matches any string s beginning with and ending in the same vowel._
+
+**Sample Input 0**
+```
+ bcd
+```
+
+**Sample Output 0**
+```
+  false
+```
+
+**Sample Input 1**
+```
+ abcda
+```
+
+**Sample Output 1**
+```
+  true
+```
+**Sample Input 2**
+```
+ abcdo
+```
+
+**Sample Output 2**
+```
+  false
+```
